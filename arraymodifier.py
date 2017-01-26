@@ -26,6 +26,10 @@ def reverser(input):
 
         return reversed_array
 
+    else:
+        # If input is None: return an empty string
+        return ""
+
 
 def tester(omega_string):
     '''
