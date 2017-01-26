@@ -30,5 +30,12 @@ To run datatransformer, clone the CodeChallenge repo and run *this* command:
 
 >> $ python datatransformer.py 
 
+When this file is run, the following examples are transformed into html and js, 
+and both transformation results are written to std output: 
 
+    a = ["random", 0, 1]
+    b = [{1: "one"}, "random", 0]
+    c = {'a': 0, 'c': 2, 'b': 1, 'd': 3}
+    d = [{1: "one"}, "random", 0, {'a': {'aa':00, 'ab':01,}, 'c': 2, 'b': 1, 'd': 3}]
 
+(These are examples I played around with in the process of coding this.) 
